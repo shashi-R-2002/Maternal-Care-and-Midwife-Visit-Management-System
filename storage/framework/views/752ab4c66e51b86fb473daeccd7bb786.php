@@ -1,0 +1,1 @@
+<?php /**PATH C:\xampp\htdocs\maternal-care-system\resources\views/partials/footer.blade.php ENDPATH**/ ?>
