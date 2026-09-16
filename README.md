@@ -17,25 +17,36 @@ A web-based system to manage maternal care, midwife assignments, and home visit 
 
 ### 🚀 How to Run Locally
 
-1. Clone the repository
-   git clone https://github.com/shashi-R-2002/Maternal-Care-and-Midwife-Visit-Management-System.git
+**1. Clone the repository**
+```bash
+git clone https://github.com/shashi-R-2002/Maternal-Care-and-Midwife-Visit-Management-System.git
+```
 
-2. Install dependencies
-   composer install
-   npm install && npm run dev
+**2. Install dependencies**
+```bash
+composer install
+npm install
+npm run dev
+```
 
-3. Setup environment
-   cp .env.example .env
-   php artisan key:generate
+**3. Setup environment**
+```bash
+cp .env.example .env
+php artisan key:generate
+```
 
-4. Create database and run migration
-   php artisan migrate
+**4. Create database and run migration**
+```bash
+php artisan migrate
+```
 
-5. Start the server
-   php artisan serve
+**5. Start the server**
+```bash
+php artisan serve
+```
 
 ### 👩‍💻 Developed By
-Shashi - IT Undergraduate 
+**Shashi - IT Undergraduate **
 
 ---
 ⭐ If you like this project, give it a star!
